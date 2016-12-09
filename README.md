@@ -13,4 +13,9 @@ This is a Swimming Race Game.
 
 ## Code I'm Proud Of  
 
+```javascript
+$("#bigDot").animate({
+    marginLeft: "+=50px",
+}, 1000 );
+```
 ## Screen Shots
