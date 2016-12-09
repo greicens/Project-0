@@ -1,7 +1,8 @@
 console.log("JS is linked")
 $(document).ready(function() {
   console.log("document is ready");
-  $("#bigDot").on("click", moveRigth);
+  $("#swimmer1").on("click", moveRigth);
+  $("#swimmer2").on("click", moveRigth);
 });
 // var scrollTop     = $(window).scrollTop(),
 //     elementOffset = $('#bigDot').offset().top,
@@ -11,7 +12,11 @@ $(document).ready(function() {
 function moveRigth(event){
   event.preventDefault();
 
-    $("#bigDot").animate({
+    $("#swimmer1").animate({
         marginLeft: "+=50px",
     }, 1000 );
+    $("#swimmer2").animate({
+        marginLeft: "+=50px",
+    }, 1000 );
+
 }

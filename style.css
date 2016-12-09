@@ -8,6 +8,18 @@
     margin-left:auto;
     margin-right:auto;
 }
+.game{
+  border: solid 5px yellow;
+}
+.lane1{
+  border: solid 5px purple;
+}
+.lane2{
+  border: solid 5px green;
+}
+.lane{
+  background-image: url("imgs/swimmingPool.gif");
+}
 
 body{
   /*background-image: url("imgs/splashBackground.jpg");;*/
@@ -18,13 +30,19 @@ body{
 }
 
 #swimmingPool{
-  width:500px;
+  width:800px;
   height: 256px;
 }
 
-#bigDot {
-position:absolute;
- height:100px;
+#swimmer1{
+  height:100px;
+  width:100px;
+  top:0;
+  left:0;
+}
+
+#swimmer2{
+  height:100px;
   width:100px;
   top:0;
   left:0;
