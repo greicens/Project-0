@@ -1,15 +1,19 @@
 *{
   border: dashed 1px black;
 }
-h2{
-  font-family: 'Freckle Face', serif;;
-  font-size: 30px;
+body{
+  /*background-image: url("imgs/splashBackground.jpg");;*/
+  font-family: 'Bungee', cursive;
 }
-p{
-  font-family: 'Freckle Face', serif;
+h2{
+  font-size: 25px;
+}
+
+.btn{
+  font-family: 'Bungee', cursive;
 }
 .button{
-    font-family: Freckle+Face;
+    font-family: 'Bungee', cursive;
     width:300px;
     height: 80px;
     padding: 20px;
@@ -17,7 +21,7 @@ p{
     margin-right:auto;
 }
 .glyphicon{
-    font-size: 60px;
+    font-size: 30px;
 }
 .game{
   border: solid 5px yellow;
@@ -34,10 +38,10 @@ p{
 .content-card col-md-12{
   height: 800px;
 }
+.content-card col=md-8{
 
-body{
-  /*background-image: url("imgs/splashBackground.jpg");;*/
 }
+
 
 #pool{
   position: relative;
