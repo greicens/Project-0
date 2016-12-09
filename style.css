@@ -1,5 +1,31 @@
+*{
+  border: dashed 1px black;
+}
 .button{
-    width:80px;
+    width:300px;
+    height: 80px;
+    padding: 20px;
     margin-left:auto;
     margin-right:auto;
+}
+
+body{
+  /*background-image: url("imgs/splashBackground.jpg");;*/
+}
+
+#pool{
+  position: relative;
+}
+
+#swimmingPool{
+  width:500px;
+  height: 256px;
+}
+
+#bigDot {
+position:absolute;
+ height:100px;
+  width:100px;
+  top:0;
+  left:0;
 }

@@ -1,0 +1,48 @@
+1. Wireframe
+2. what data will you need to keep track of?
+   time
+   position of swimmer on pool.
+   winner data (who won?)
+   is game isProgress function? true or false?
+   startGame
+   endGame
+
+   Swimmer is an object that has (subclass of game)
+    --position
+    --
+
+  Timer object (subclass of game )
+   --
+
+  Game object is the Main Object
+    --- timer
+    --- swimmer
+    --- methods
+        -startGame
+        -endGame
+        -isProgress
+    ---- checkForWinner     
+3. what events will you listen for on the page?
+   listen for mouse click to have swimmer jump on the pool
+   listen for keypress to move swimmer across the pool
+   listen for (how do I tell when swimmer finished?)
+
+   skeleton
+   ---start by moving an element on the page with one key.
+   ---after cross on line on the page an event happens like (console .log)
+
+
+
+   simplest version?
+      - has no chronometer
+      - start by moving to elements on a page and figure how they move up and down.
+      - a button to start the race.
+      - race starts on one side of the pool and on the other side.
+
+   second version?
+      - add chronometer
+      - move gifs up and down the pool
+      - start count down button to start the race
+      - click on gif will start the swimmers
+      - race starts on one side goes to the other side and comeback
+         --- when they up keypress the up key (when they get to other side up key stops working)
