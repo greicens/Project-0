@@ -1,12 +1,25 @@
 *{
-  border: dashed 1px black;
+  border: dashed 2px black;
 }
 body{
-  /*background-image: url("imgs/splashBackground.jpg");;*/
   font-family: 'Bungee', cursive;
 }
 h2{
   font-size: 25px;
+}
+h3{
+  color: purple;
+}
+img{
+  width: 80px;
+  height: 80px;
+}
+.step{
+}
+.instructions{
+  /*background-image: url("imgs/background-pool.png");*/
+  text-align: center;
+  padding-top: 40px;
 }
 
 .btn{
@@ -24,27 +37,32 @@ h2{
     font-size: 30px;
 }
 .game{
-  border: solid 5px yellow;
+  /*border: solid 5px yellow;*/
 }
 .lane1{
-  border: solid 5px purple;
+  /*border: solid 5px purple;*/
 }
 .lane2{
-  border: solid 5px green;
+  /*border: solid 5px green;*/
 }
 .lane{
-  background-image: url("imgs/swimmingPool.gif");
+  /*background-image: url("imgs/another-pool.jpg");*/
 }
-.content-card col-md-12{
-  height: 800px;
-}
-.content-card col=md-8{
+.top-row{
 
+}
+.col md-1{
+  background-color: blue;
+}
+
+.placar{
+  /*background-image: url("imgs/grey-bricks.jpeg");*/
 }
 
 
 #pool{
   position: relative;
+  padding: 20px;
 }
 
 #swimmingPool{
@@ -53,15 +71,16 @@ h2{
 }
 
 #swimmer1{
-  height:100px;
-  width:100px;
+  background-color: blue;
+  height:30px;
+  width:30px;
   top:0;
   left:0;
 }
 
 #swimmer2{
-  height:100px;
-  width:100px;
+  height:20px;
+  width: 20px;
   top:0;
   left:0;
 }
