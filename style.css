@@ -14,12 +14,11 @@ img{
   width: 80px;
   height: 80px;
 }
+
 .step{
 }
 .instructions{
-  /*background-image: url("imgs/background-pool.png");*/
   text-align: center;
-  padding-top: 40px;
 }
 
 .btn{
@@ -46,34 +45,35 @@ img{
   /*border: solid 5px green;*/
 }
 .lane{
-  /*background-image: url("imgs/another-pool.jpg");*/
+  background-image: url("imgs/another-pool.jpg");
 }
 .top-row{
 
 }
 .col md-1{
-  background-color: blue;
 }
 
-.placar{
-  /*background-image: url("imgs/grey-bricks.jpeg");*/
+
+#placar{
+  background-image: url("imgs/grey-bricks.jpeg");
+  padding: 20px;
 }
 
 
 #pool{
-  position: relative;
   padding: 20px;
+  background-image: url("imgs/swimmingPool.gif");
+
 }
 
-#swimmingPool{
+#swimming-pool{
   width:800px;
   height: 256px;
 }
 
 #swimmer1{
-  background-color: blue;
-  height:30px;
-  width:30px;
+  height:60px;
+  width:60px;
   top:0;
   left:0;
 }
@@ -83,4 +83,8 @@ img{
   width: 20px;
   top:0;
   left:0;
+}
+#top-row{
+  /*background-image: url("imgs/background-pool.png");*/
+  padding: 20px;
 }
